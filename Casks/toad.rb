@@ -3,7 +3,7 @@ cask "toad" do
   name "toad"
   desc "AI-powered code assistant that lives in Slack"
   homepage "https://github.com/scaler-tech/toad"
-  version "0.1.94"
+  version "0.1.95"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "toad" do
   on_macos do
     on_intel do
       url "https://github.com/scaler-tech/toad/releases/download/v#{version}/toad_v#{version}_macOS_64bit.tar.gz"
-      sha256 "84aaa4b8b85a79a05f1523de5c8f1890abb16f35c55a7dada8310e476f663fe9"
+      sha256 "8ba273d4a8809fafdfb38fa9f6063a69e71e9e64678a756b16c1ff196369117f"
     end
     on_arm do
       url "https://github.com/scaler-tech/toad/releases/download/v#{version}/toad_v#{version}_macOS_ARM64.tar.gz"
-      sha256 "23f4d265cb0b38c7cb71f061c41e27a94360663742f0a4a2d8d5697702136e3e"
+      sha256 "3ed0af9a68c90635a00bb3e2cfe1374500249db3b39ddf669832423c9e906829"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/scaler-tech/toad/releases/download/v#{version}/toad_v#{version}_Linux_64bit.tar.gz"
-      sha256 "3bc3a18ab95fc1f00fe47472e375d48feae4997311ca4161f12c5403774697c4"
+      sha256 "5e6d9c08618b054f67ff8efad8c0a7b3e2b8f083f06bd8c5184e3d24116bc48f"
     end
     on_arm do
       url "https://github.com/scaler-tech/toad/releases/download/v#{version}/toad_v#{version}_Linux_ARM64.tar.gz"
-      sha256 "f7ae48754ceccb1c9c35544ff2620829e99590fd2e04a65333512910c51bc9eb"
+      sha256 "a41bfbe0da983b41a87c98756dc313df16eeecb6f7f0de98cb6ce2f233950770"
     end
   end
 
