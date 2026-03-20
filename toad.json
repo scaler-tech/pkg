@@ -1,19 +1,19 @@
 {
-    "version": "0.1.119",
+    "version": "0.1.120",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/scaler-tech/toad/releases/download/v0.1.119/toad_v0.1.119_Windows_64bit.zip",
+            "url": "https://github.com/scaler-tech/toad/releases/download/v0.1.120/toad_v0.1.120_Windows_64bit.zip",
             "bin": [
                 "toad.exe"
             ],
-            "hash": "18bd82a04019ad17999be6f02333caecd20f458a655892692bff7ec3dbc09b20"
+            "hash": "2dda56dab20dcc99fae62c3023c3bc1a238ec854ae987d8e9210fb6643cee448"
         },
         "arm64": {
-            "url": "https://github.com/scaler-tech/toad/releases/download/v0.1.119/toad_v0.1.119_Windows_ARM64.zip",
+            "url": "https://github.com/scaler-tech/toad/releases/download/v0.1.120/toad_v0.1.120_Windows_ARM64.zip",
             "bin": [
                 "toad.exe"
             ],
-            "hash": "3b6ebc2d6ae38750c57448671115a4cd53bcac07bfd6e44cb21ebd334f6c28bd"
+            "hash": "4c69a41d49b97dca184bdee7e599967112bef9350e3e98478774014060d3931a"
         }
     },
     "homepage": "https://github.com/scaler-tech/toad",
